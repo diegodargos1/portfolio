@@ -1,0 +1,24 @@
+[
+  {
+    "img": "zull.JPG",
+    "github": "https://github.com/diegodargos1/zull",
+    "link": "http://www.zullcomunicacao.com.br",
+    "description": "Zull",
+    "duties": [
+      {
+        "text": "System created to manage events, sales, suppliers and customers. Developed the backend with PHP7, frontend with ReactJs and Bootstrap. The database is MySql based."
+      }
+    ]
+  },
+  {
+    "img": "dargos.JPG",
+    "github": "https://github.com/diegodargos1/dargos-crm",
+    "link": "http://www.dargos.com.br/painel",
+    "description": "Dargos CRM",
+    "duties": [
+      {
+        "text": "System developed to manage the previous calls and sales. The backend was developed in PHP7, frontend in CSS3, JavaScript and jQuery. The database is MySql based."
+      }
+    ]
+  }
+]
