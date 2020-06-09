@@ -773,8 +773,10 @@ button:focus {
 }
 .portfolio__item-info {
   background-color: #fff;
-  display: block;
+  /* display: none; */
   height: 0px;
+  overflow: hidden;
+  opacity: 0;
 }
 .portfolio__item-info__intro,
 .portfolio__item-info__content {
@@ -1374,10 +1376,12 @@ button:focus {
 
 .showContent {
   height: 200px;
+  opacity: 1;
   transition: 500ms;
 }
 
 .hiddenContent {
   height: 0px;
+  opacity: 0;
   transition: 500ms;
 }

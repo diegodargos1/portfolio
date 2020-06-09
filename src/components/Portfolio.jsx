@@ -3,6 +3,7 @@ import zull from "../assets/zull.JPG";
 function Portfolio(props) {
   const [btnClass, setBtnClass] = useState(false);
   const [display, setDisplay] = useState(false);
+  const [visibility, setVisibility] = useState("none");
   const images = require.context("../assets", true);
   let img = images("./" + props.data.img);
 
@@ -10,6 +11,7 @@ function Portfolio(props) {
     e.preventDefault();
     setBtnClass(!btnClass ? "portfolio__item-cta__icon--is-open" : false);
     setDisplay(!btnClass ? "showContent" : "hiddenContent");
+    //setVisibility(!btnClass ? "block" : "none");
   }
 
   function handleLink() {
@@ -59,7 +61,10 @@ function Portfolio(props) {
           </li>
         </ul>
       </div>
-      <div className={"portfolio__item-info " + display}>
+      <div
+        className={"portfolio__item-info " + display}
+        // style={{ display: "none" }}
+      >
         <div className="portfolio__item-info__intro">
           <p className="paragraph u-color-white">{props.data.description}</p>
         </div>

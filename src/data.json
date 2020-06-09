@@ -11,6 +11,17 @@
     ]
   },
   {
+    "img": "mysteryapp.JPG",
+    "github": "https://github.com/diegodargos1/mysteryapp",
+    "link": "http://www.dargos.com.br/mysteryapp",
+    "description": "The Mystery App",
+    "duties": [
+      {
+        "text": "App developed as a game to play with friends. Backend is NodeJs, frontend is React Native. The database is MongoDB."
+      }
+    ]
+  },
+  {
     "img": "dargos.JPG",
     "github": "https://github.com/diegodargos1/dargos-crm",
     "link": "http://www.dargos.com.br/painel",
